@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3359DF</color>
+    <color name="colorPrimaryDark">#3359DA</color>
+    <color name="colorAccent">#C0C0C0</color>
+    <color name="andela_yellow">#FFBF00</color>
+    <color name="grey_color">#99707070</color>
+    <color name="_default">#808080</color>
+    <color name="gray">#66d3d3d3</color>
+    <color name="light_grey">#99707070</color>
+    <color name="silver">#C0C0C0</color>
+</resources>

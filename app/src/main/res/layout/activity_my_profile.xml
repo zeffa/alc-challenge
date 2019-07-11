@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/eight_dip_size"
+    android:background="@color/gray"
+    tools:context=".MyProfile">
+
+    <ImageView android:id="@+id/img_profile_picture"
+        android:layout_width="@dimen/view_size_zero"
+        android:layout_height="200dip"
+        android:src="@mipmap/zeff"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView android:id="@+id/txt_name"
+        android:layout_width="@dimen/view_size_zero"
+        android:layout_height="wrap_content"
+        android:text="Elijah Onduso"
+        android:gravity="center"
+        android:textSize="@dimen/text_size_twenty_five"
+
+        android:layout_marginTop="@dimen/eight_dip_size"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_profile_picture"/>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/one_dip_size"
+        android:layout_marginTop="@dimen/sixteen_dip_size"
+        android:background="@android:color/black"
+        app:layout_constraintLeft_toLeftOf="@+id/txt_name"
+        app:layout_constraintRight_toRightOf="@+id/txt_name"
+        app:layout_constraintTop_toBottomOf="@+id/txt_name" />
+
+    <TextView android:id="@+id/txt_track"
+        android:layout_width="@dimen/view_size_zero"
+        android:layout_height="wrap_content"
+        android:text="Android"
+        android:textSize="@dimen/text_size_twenty"
+        android:layout_marginTop="@dimen/sixteen_dip_size"
+        app:layout_constraintRight_toRightOf="@+id/txt_name"
+        app:layout_constraintLeft_toLeftOf="@+id/txt_name"
+        app:layout_constraintTop_toBottomOf="@+id/divider"/>
+
+    <TextView android:id="@+id/txt_country"
+        android:layout_width="@dimen/view_size_zero"
+        android:layout_height="wrap_content"
+        android:text="Kenya"
+        android:textSize="@dimen/text_size_twenty"
+        android:layout_marginTop="@dimen/sixteen_dip_size"
+        app:layout_constraintRight_toRightOf="@+id/txt_name"
+        app:layout_constraintLeft_toLeftOf="@+id/txt_name"
+        app:layout_constraintTop_toBottomOf="@+id/txt_track"/>
+
+    <TextView android:id="@+id/txt_email"
+        android:layout_width="@dimen/view_size_zero"
+        android:layout_height="wrap_content"
+        android:text="zeffah.elly@gmail.com"
+        android:textSize="@dimen/text_size_twenty"
+        android:layout_marginTop="@dimen/sixteen_dip_size"
+        app:layout_constraintTop_toBottomOf="@+id/txt_country"
+        app:layout_constraintRight_toRightOf="@+id/txt_name"
+        app:layout_constraintLeft_toLeftOf="@+id/txt_name"/>
+
+    <TextView android:id="@+id/txt_phone_number"
+        android:layout_width="@dimen/view_size_zero"
+        android:layout_height="wrap_content"
+        android:text="254732266532"
+        android:textSize="@dimen/text_size_twenty"
+        android:layout_marginTop="@dimen/sixteen_dip_size"
+        app:layout_constraintTop_toBottomOf="@+id/txt_email"
+        app:layout_constraintRight_toRightOf="@+id/txt_name"
+        app:layout_constraintLeft_toLeftOf="@+id/txt_name"/>
+
+    <TextView android:id="@+id/txt_slack_username"
+        android:layout_width="@dimen/view_size_zero"
+        android:layout_height="wrap_content"
+        android:text="zeffah"
+        android:textSize="@dimen/text_size_twenty"
+        android:layout_marginTop="@dimen/sixteen_dip_size"
+        app:layout_constraintTop_toBottomOf="@+id/txt_phone_number"
+        app:layout_constraintRight_toRightOf="@+id/txt_name"
+        app:layout_constraintLeft_toLeftOf="@+id/txt_name"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

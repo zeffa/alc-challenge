@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_twenty_five">25sp</dimen>
+    <dimen name="view_size_zero">0dip</dimen>
+    <dimen name="eighty_dip_size">80dip</dimen>
+    <dimen name="fifty_dip_size">50dip</dimen>
+    <dimen name="four_dip_size">4dip</dimen>
+    <dimen name="eight_dip_size">8dip</dimen>
+    <dimen name="sixteen_dip_size">16dip</dimen>
+    <dimen name="one_dip_size">1dp</dimen>
+    <dimen name="text_size_twenty">20sp</dimen>
+</resources>
